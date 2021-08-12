@@ -24,4 +24,8 @@ app.post('/register',(req, res) => {
     console.log(req.body)
     //res.json(req.body)
 })
+
+function add(a,b){
+    console.log(a+b);
+}
 app.listen(3000,() =>{console.log('App is running')})
